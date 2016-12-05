@@ -1,0 +1,67 @@
+test_string_util.o: test_string_util.cc ../config.hh ../data_type.hh \
+ ../io/read.hh ../utils/string_util.hh ../utils/../data_type.hh \
+ ../app/jieba/Jieba.hh ../app/jieba/../../data_type.hh \
+ ../app/jieba/../../utils/string_util.hh \
+ ../app/jieba/../../dsa/graph/Trie.hh \
+ ../app/jieba/../../dsa/graph/../../data_type.hh \
+ ../app/jieba/../../dsa/graph/../../utils/string_util.hh \
+ ../app/jieba/DictTrie.hh ../app/jieba/GeneralConfig.hh \
+ ../app/jieba/../../io/read.hh ../app/jieba/MixSeg.hh \
+ ../app/jieba/SegBase.hh ../app/jieba/PreFilter.hh ../app/jieba/MPSeg.hh \
+ ../app/jieba/HMMSeg.hh ../app/jieba/HMMModel.hh
+read.o: ../io/read.cc ../io/read.hh
+string_util.o: ../utils/string_util.cc ../utils/string_util.hh \
+ ../utils/../data_type.hh
+SegBase.o: ../app/jieba/SegBase.cc ../app/jieba/SegBase.hh \
+ ../app/jieba/../../data_type.hh
+Trie.o: ../dsa/graph/Trie.cc ../dsa/graph/Trie.hh \
+ ../dsa/graph/../../data_type.hh ../dsa/graph/../../utils/string_util.hh \
+ ../dsa/graph/../../utils/../data_type.hh
+DictTrie.o: ../app/jieba/DictTrie.cc ../app/jieba/DictTrie.hh \
+ ../app/jieba/GeneralConfig.hh ../app/jieba/../../data_type.hh \
+ ../app/jieba/../../io/read.hh ../app/jieba/../../utils/string_util.hh \
+ ../app/jieba/../../utils/../data_type.hh \
+ ../app/jieba/../../dsa/graph/Trie.hh \
+ ../app/jieba/../../dsa/graph/../../data_type.hh \
+ ../app/jieba/../../dsa/graph/../../utils/string_util.hh
+Prefilter.o: ../app/jieba/Prefilter.cc ../app/jieba/PreFilter.hh \
+ ../app/jieba/../../data_type.hh ../app/jieba/../../utils/string_util.hh \
+ ../app/jieba/../../utils/../data_type.hh
+MPSeg.o: ../app/jieba/MPSeg.cc ../app/jieba/MPSeg.hh \
+ ../app/jieba/PreFilter.hh ../app/jieba/../../data_type.hh \
+ ../app/jieba/../../utils/string_util.hh \
+ ../app/jieba/../../utils/../data_type.hh \
+ ../app/jieba/../../dsa/graph/Trie.hh \
+ ../app/jieba/../../dsa/graph/../../data_type.hh \
+ ../app/jieba/../../dsa/graph/../../utils/string_util.hh \
+ ../app/jieba/DictTrie.hh ../app/jieba/GeneralConfig.hh \
+ ../app/jieba/../../io/read.hh ../app/jieba/SegBase.hh
+HMMModel.o: ../app/jieba/HMMModel.cc ../app/jieba/HMMModel.hh \
+ ../app/jieba/../../io/read.hh ../app/jieba/../../data_type.hh \
+ ../app/jieba/../../utils/string_util.hh \
+ ../app/jieba/../../utils/../data_type.hh
+HMMSeg.o: ../app/jieba/HMMSeg.cc ../app/jieba/HMMSeg.hh \
+ ../app/jieba/GeneralConfig.hh ../app/jieba/../../data_type.hh \
+ ../app/jieba/PreFilter.hh ../app/jieba/../../utils/string_util.hh \
+ ../app/jieba/../../utils/../data_type.hh ../app/jieba/SegBase.hh \
+ ../app/jieba/HMMModel.hh ../app/jieba/../../io/read.hh
+MixSeg.o: ../app/jieba/MixSeg.cc ../app/jieba/MixSeg.hh \
+ ../app/jieba/../../utils/string_util.hh \
+ ../app/jieba/../../utils/../data_type.hh ../app/jieba/../../data_type.hh \
+ ../app/jieba/SegBase.hh ../app/jieba/PreFilter.hh ../app/jieba/MPSeg.hh \
+ ../app/jieba/../../dsa/graph/Trie.hh \
+ ../app/jieba/../../dsa/graph/../../data_type.hh \
+ ../app/jieba/../../dsa/graph/../../utils/string_util.hh \
+ ../app/jieba/DictTrie.hh ../app/jieba/GeneralConfig.hh \
+ ../app/jieba/../../io/read.hh ../app/jieba/HMMSeg.hh \
+ ../app/jieba/HMMModel.hh
+Jieba.o: ../app/jieba/Jieba.cc ../app/jieba/jieba.hh \
+ ../app/jieba/../../data_type.hh ../app/jieba/../../utils/string_util.hh \
+ ../app/jieba/../../utils/../data_type.hh \
+ ../app/jieba/../../dsa/graph/Trie.hh \
+ ../app/jieba/../../dsa/graph/../../data_type.hh \
+ ../app/jieba/../../dsa/graph/../../utils/string_util.hh \
+ ../app/jieba/DictTrie.hh ../app/jieba/GeneralConfig.hh \
+ ../app/jieba/../../io/read.hh ../app/jieba/MixSeg.hh \
+ ../app/jieba/SegBase.hh ../app/jieba/PreFilter.hh ../app/jieba/MPSeg.hh \
+ ../app/jieba/HMMSeg.hh ../app/jieba/HMMModel.hh
